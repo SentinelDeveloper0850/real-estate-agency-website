@@ -1,0 +1,45 @@
+.propertyListItem {
+  display: flex;
+  justify-content: space-between;
+  /* width: 50%; */
+}
+
+.propertyListItem:hover {
+  border-color: #003aa9;
+}
+
+.propertyLocation {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.propertySummary {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.propertyMetrics {
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.propertyInfo {
+  padding: 1rem;
+}
+
+.propertyHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featureImageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.actions .action:hover {
+  color: #003aa9;
+  cursor: pointer;
+}
