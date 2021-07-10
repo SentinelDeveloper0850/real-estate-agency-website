@@ -1,20 +1,15 @@
 import styles from '../../styles/PropertyListItem.module.css';
 import { FC, useState } from 'react';
-import { IProperty } from '../../models/property';
 import { EnvironmentOutlined, HeartFilled, HeartOutlined, SearchOutlined } from '@ant-design/icons';
 import { Card, Modal } from 'antd';
 import { formatToMoneyWithCurrency } from '../../utils/formats';
-import { useRouter } from 'next/router';
-
 interface IProps {
   property: any;
 }
 
 const PropertyListItem: FC<IProps> = ({ property }) => {
-  const router = useRouter();
-
   const handleCardClick = () => {
-    router.push(`/property/${property.id}`);
+    // router.push(`/property/${property.id}`);
   };
 
   const [favorite, setFavorite] = useState(false);

@@ -1,8 +1,6 @@
 import styles from '../../styles/Home.module.css';
 import { FC } from 'react';
 import { SearchOutlined } from "@ant-design/icons";
-import { Spin } from 'antd';
-
 export interface ISearchProps {
   location: string;
   handleSetLocation: (value: string) => void;
