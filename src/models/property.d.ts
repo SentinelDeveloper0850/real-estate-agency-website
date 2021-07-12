@@ -1,14 +1,15 @@
 export interface IProperty {
   id?: number;
-  name?: string;
-  price?: number;
-  type?: string;
-  address?: string;
+  name: string;
+  price: number;
+  type: string;
+  address: string;
   city: string;
-  location?: string;
+  beds: number;
+  baths: number;
   amenities?: string;
   summary?: string;
-  about?: string;
+  description?: string;
   likes?: string;
   viewings?: string;
   status?: string;

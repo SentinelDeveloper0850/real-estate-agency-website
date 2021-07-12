@@ -1,0 +1,4 @@
+.sidebar.ant-layout-sider {
+  background: unset;
+  border-right: 1px solid #ccc;
+}

@@ -30,11 +30,11 @@ const Home = ({ properties = [] }) => {
         <List dataSource={properties} renderItem={(item, index) => <PropertyListItem key={index} property={item} />} />
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a href='https://binay.co.za' target='_blank' rel='noopener noreferrer'>
           Powered by Binay Digital Solutions
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
